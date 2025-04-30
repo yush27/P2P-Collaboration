@@ -2,7 +2,7 @@
 - A real-time collaborative whiteboard built using React, Node.js, and WebSockets.
 
 ## Demo
-https://github.com/user-attachments/assets/c76de3cc-a658-4db7-807f-3d90fca03b23
+https://github.com/user-attachments/assets/a4f110de-b6fa-4278-ad0d-a1d4ae38fbb4
 
 ## Features ✨
 - **Real-time Collaboration** — Seamless canvas sync  
