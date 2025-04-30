@@ -1,0 +1,14 @@
+{
+  "name": "p2p-collaboration-server",
+  "description": "Node.js WebSocket server for the collaborative whiteboard.",
+  "author": "Pratyush Kumar",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "ws": "^8.14.2"
+  }
+}

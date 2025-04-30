@@ -1,0 +1,138 @@
+.whiteboard-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f7fa;
+}
+
+.main-title {
+  margin-bottom: 10px;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #1f2937;
+  line-height: 1.0;
+  text-align: center;
+  margin: 3px;
+}
+
+
+.toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  align-items: center;
+  margin-bottom: 5px;
+  padding: 12px;
+  border-radius: 12px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  border: 1px solid #e2e8f0;
+}
+
+.controls-group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.controls-group label {
+  margin-right: 6px;
+  font-size: 0.95em;
+  color: #444;
+}
+
+.controls-group input[type="color"] {
+  cursor: pointer;
+  height: 28px;
+  width: 28px;
+  border: none;
+  overflow: hidden;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+}
+
+.controls-group input[type="range"] {
+  cursor: pointer;
+  width: 120px;
+  accent-color: #3b82f6;
+  height: 5px;
+  border-radius: 4px;
+}
+
+
+.controls-group .line-width-display {
+  min-width: 35px;
+  text-align: right;
+  font-family: monospace;
+  font-size: 0.9em;
+  color: #333;
+}
+
+.tool-button,
+.action-button {
+  padding: 6px 14px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #f0f0f0;
+  color: #222;
+  transition: background-color 0.2s, transform 0.1s;
+}
+
+.tool-button:hover,
+.action-button:hover {
+  background-color: #e2e8f0;
+}
+
+.tool-button:disabled {
+  font-weight: 600;
+  background-color: #e5e7eb;
+  cursor: not-allowed;
+}
+
+.action-button.reset {
+  background-color: #fee2e2;
+  color: #b91c1c;
+}
+
+.action-button.reset:hover {
+  background-color: #f87171;
+  color: white;
+}
+
+.status-indicator {
+  font-size: 0.85em;
+  color: #555;
+}
+
+.status-connected {
+  color: #16a34a;
+}
+
+.status-disconnected {
+  color: #dc2626;
+}
+
+.whiteboard-canvas {
+  border: 1px solid #eeecec;
+  background-color: #ffffff;
+  touch-action: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  width: 100%;
+  max-width: 900px;
+  height: auto;
+  aspect-ratio: 4/2.6;
+}
+
+.controls-group input[type="color"]:disabled {
+  cursor: not-allowed;
+  opacity: 0.4;
+}
+
+.controls-group label.disabled-label {
+  opacity: 0.5;
+}

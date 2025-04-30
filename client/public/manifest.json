@@ -1,0 +1,22 @@
+{
+  "short_name": "P2P Collab",
+  "name": "P2P-Collaboration",
+  "icons": [
+    {
+      "src": "p2p_collab_logo.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "p2p_collab_logo.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#4A90E2",
+  "background_color": "#ffffff"
+}
